@@ -54,15 +54,49 @@
 	<div id="wrapper">
 	    <h1>DEGUSTEZ UNE GLACE</h1>
 	    <h2>MAINTENANT, TOUT DE SUITE</h2>
-	    <button type="button" class="btn btn-primary">Commander</button>
+	    <button type="button" class="btn btn-primary btn-lg" data-toggle="modal" data-target="#formulaire-commande">Commander</button>
 	</div>
+
+	<!-- Modal -->
+<div class="modal fade" id="formulaire-commande" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+        <h4 class="modal-title" id="myModalLabel">Commandez !</h4>
+      </div>
+      <div class="modal-body">
+        <div id="wufoo-qdhao031t1xnxl">
+Fill out my <a href="https://antoninressault.wufoo.com/forms/qdhao031t1xnxl">online form</a>.
+</div>
+<div id="wuf-adv" style="font-family:inherit;font-size: small;color:#a7a7a7;text-align:center;display:block;">Online contact and registration forms from <a href="http://www.wufoo.com">Wufoo</a>.</div>
+<script type="text/javascript">var qdhao031t1xnxl;(function(d, t) {
+var s = d.createElement(t), options = {
+'userName':'antoninressault',
+'formHash':'qdhao031t1xnxl',
+'autoResize':true,
+'height':'466',
+'async':true,
+'host':'wufoo.com',
+'header':'show',
+'ssl':true};
+s.src = ('https:' == d.location.protocol ? 'https://' : 'http://') + 'www.wufoo.com/scripts/embed/form.js';
+s.onload = s.onreadystatechange = function() {
+var rs = this.readyState; if (rs) if (rs != 'complete') if (rs != 'loaded') return;
+try { qdhao031t1xnxl = new WufooForm();qdhao031t1xnxl.initialize(options);qdhao031t1xnxl.display(); } catch (e) {}};
+var scr = d.getElementsByTagName(t)[0], par = scr.parentNode; par.insertBefore(s, scr);
+})(document, 'script');</script>
+      </div>
+    </div>
+  </div>
+</div>
 
 	<div class="spacer"></div>
 
 	    <div class="container text-center">
 	    	<div class="row">
 	    		<div class="col-sm-6 col-md-3 feature">
-			    	<img src="images/icon_57707/icon_57707.png" width="48" class="square">
+			    	<img src="images/icon_57707/icon_57707.png" width="70" class="square">
 				    <p>
 				      Choisissez jusque trois parfums
 				      parmi notre catalogue de <strong>1000</strong> glaces maison.
@@ -70,7 +104,7 @@
 				</div>
 
 				<div class="col-sm-6 col-md-3 feature">
-				    <img src="images/icon_29388/icon_29388.png" width="48" class="square">
+				    <img src="images/icon_29388/icon_29388.png" width="70" class="square">
 				    <p>
 				      L'application vous <strong>géolocalise</strong> automatiquement et vous
 				      indique le temps d'attente estimé.
@@ -78,7 +112,7 @@
 				</div>
 
 				<div class="col-sm-6 col-md-3 feature">
-				    <img src="images/icon_24755/icon_24755.png" width="48" class="square">
+				    <img src="images/icon_24755/icon_24755.png" width="70" class="square">
 				    <p>
 				      Un de nos supers livreurs fonce pour vous apporter votre glace,
 				      qui sera <strong>préparée juste à temps</strong>.
@@ -86,7 +120,7 @@
 				</div>
 
 				<div class="col-sm-6 col-md-3 feature">
-				    <img src="images/icon_17805/icon_17805.png" width="48" class="square">
+				    <img src="images/icon_17805/icon_17805.png" width="70" class="square">
 				    <p>
 				      Pas de monnaie ? Pas un problème, le paiement est <strong>automatiquement</strong>
 				      débité sur votre carte bancaire.
